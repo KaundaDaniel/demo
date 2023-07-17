@@ -1,12 +1,9 @@
 package com.example.demo.entities;
 
-import lombok.AllArgsConstructor;
-import lombok.Getter;
-import lombok.NoArgsConstructor;
-import lombok.Setter;
+import lombok.*;
 
 import java.net.InetAddress;
-
+ @Builder
 @Getter
 @Setter
 @AllArgsConstructor
