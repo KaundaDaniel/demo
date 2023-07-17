@@ -16,6 +16,7 @@ import java.net.UnknownHostException;
 public class ClientController {
     @Autowired
     private ClientServe clientServie;
+
     @GetMapping
     public ResponseEntity<Client> mostra() throws UnknownHostException {
         return ResponseEntity.status(HttpStatus.OK).body(clientServie.clientIp());
